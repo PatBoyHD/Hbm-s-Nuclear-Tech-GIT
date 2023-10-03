@@ -78,7 +78,6 @@ public class HbmChestContents {
 			new WeightedRandomChestContentFrom1710(ModItems.battery_advanced_cell, 0, 1, 1, 2),
 			new WeightedRandomChestContentFrom1710(ModItems.battery_schrabidium, 0, 1, 1, 1),
 			new WeightedRandomChestContentFrom1710(ModItems.syringe_awesome, 0, 1, 1, 1),
-			new WeightedRandomChestContentFrom1710(ModItems.crate_caller, 0, 1, 1, 3),
 			new WeightedRandomChestContentFrom1710(ModItems.fusion_core, 0, 1, 1, 4),
 			new WeightedRandomChestContentFrom1710(ModItems.bottle_nuka, 0, 1, 3, 6),
 			new WeightedRandomChestContentFrom1710(ModItems.bottle_quantum, 0, 1, 1, 3),
@@ -141,10 +140,8 @@ public class HbmChestContents {
 			new WeightedRandomChestContentFrom1710(ModItems.bottle_nuka, 0, 1, 3, 6),
 			new WeightedRandomChestContentFrom1710(ModItems.bottle_quantum, 0, 1, 1, 3),
 			new WeightedRandomChestContentFrom1710(ModItems.stealth_boy, 0, 1, 1, 7),
-			new WeightedRandomChestContentFrom1710(ModItems.crate_caller, 0, 1, 1, 3),
 			new WeightedRandomChestContentFrom1710(ModItems.gas_mask_m65, 0, 1, 1, 5),
-			new WeightedRandomChestContentFrom1710(ModItems.gas_mask_filter, 0, 1, 1, 5),
-			new WeightedRandomChestContentFrom1710(ModItems.grenade_nuclear, 0, 1, 2, 2) };
+			new WeightedRandomChestContentFrom1710(ModItems.gas_mask_filter, 0, 1, 1, 5) };
 
 	private static WeightedRandomChestContentFrom1710[] missile = new WeightedRandomChestContentFrom1710[] {
 			new WeightedRandomChestContentFrom1710(ModItems.missile_generic, 0, 1, 1, 4),
@@ -155,17 +152,13 @@ public class HbmChestContents {
 			new WeightedRandomChestContentFrom1710(ModItems.gas_mask_m65, 0, 1, 1, 5),
 			new WeightedRandomChestContentFrom1710(ModItems.battery_advanced, 0, 1, 1, 5),
 			new WeightedRandomChestContentFrom1710(ModItems.designator, 0, 1, 1, 5),
-			new WeightedRandomChestContentFrom1710(ModItems.crate_caller, 0, 1, 1, 1),
 			new WeightedRandomChestContentFrom1710(ModItems.thruster_small, 0, 1, 1, 5),
 			new WeightedRandomChestContentFrom1710(ModItems.thruster_medium, 0, 1, 1, 4),
 			new WeightedRandomChestContentFrom1710(ModItems.thruster_large, 0, 1, 1, 2),
 			new WeightedRandomChestContentFrom1710(ModItems.fuel_tank_small, 0, 1, 1, 5),
 			new WeightedRandomChestContentFrom1710(ModItems.fuel_tank_medium, 0, 1, 1, 4),
 			new WeightedRandomChestContentFrom1710(ModItems.fuel_tank_small, 0, 1, 1, 2),
-			new WeightedRandomChestContentFrom1710(ModItems.warhead_mirvlet, 0, 1, 1, 1),
-			new WeightedRandomChestContentFrom1710(ModItems.warhead_nuclear, 0, 1, 1, 1),
-			new WeightedRandomChestContentFrom1710(ItemBombCaller.getStack(EnumCallerType.CARPET), 1, 1, 1),
-			new WeightedRandomChestContentFrom1710(ItemBombCaller.getStack(EnumCallerType.ORANGE), 1, 1, 1) };
+			new WeightedRandomChestContentFrom1710(ModItems.warhead_nuclear, 0, 1, 1, 1) };
 
 	private static WeightedRandomChestContentFrom1710[] spaceship = new WeightedRandomChestContentFrom1710[] {
 			new WeightedRandomChestContentFrom1710(ModItems.battery_advanced, 0, 1, 1, 5),
